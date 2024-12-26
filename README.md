@@ -1,5 +1,7 @@
 # Getting Started with Create React App
-
+components are :-FoodLogForm.js,DailyTracker.js
+Services :server.js
+(use this files for the Calorie_Counter_Tool)
 
 #Start the Server.js
   using the ~Node server.js(check the file path proper)
