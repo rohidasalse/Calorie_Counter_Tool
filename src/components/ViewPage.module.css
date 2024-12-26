@@ -1,0 +1,72 @@
+/* ProductCard.module.css */
+
+/* Grid Container */
+.productGrid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(200px, 1fr)
+  ); /* Responsive columns */
+  gap: 20px; /* Spacing between items */
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background */
+}
+
+/* Product Card */
+.productCard {
+  width: 300px;
+  background-color: #fff; /* White background for cards */
+  border: 1px solid #ddd; /* Light border for separation */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow: hidden; /* Hide overflow content */
+  transition: transform 0.3s ease; /* Animation for hover effect */
+}
+
+/* Hover Effect */
+
+/* Product Image */
+.productImage {
+  margin-top: 20px;
+  width: 100%; /* Full width of the card */
+  height: 200px; /* Set a fixed height for consistency */
+  object-fit: contain; /* Ensure the entire image fits within the container */
+}
+
+/* Product Details */
+.productDetails {
+  padding: 15px;
+  text-align: center; /* Center-align text */
+}
+
+/* Product Title */
+.productTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Product Price */
+.productPrice {
+  font-size: 16px;
+  color: #007bff; /* Blue color for price */
+  margin: 5px 0;
+}
+
+/* Buy Now Button */
+.buyNowButton {
+  background-color: #28a745; /* Green background */
+  color: #fff; /* White text */
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+.buyNowButton:hover {
+  background-color: #218838; /* Darker green on hover */
+}
