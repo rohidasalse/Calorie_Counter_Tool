@@ -1,5 +1,11 @@
 # Getting Started with Create React App
 
+
+#Start the Server.js
+  using the ~Node server.js(check the file path proper)
+#Run the code 
+ using the ~npm start
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
